@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeProject.Server", "Server\StripeProject.Server.csproj", "{4FC28658-2D39-4A95-8B47-E39E19B4C483}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StripeProject.Server", "Server\StripeProject.Server.csproj", "{4FC28658-2D39-4A95-8B47-E39E19B4C483}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeProject.Client", "Client\StripeProject.Client.csproj", "{1147852A-E681-402C-8CF1-58157A9B1AFE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StripeProject.Client", "Client\StripeProject.Client.csproj", "{1147852A-E681-402C-8CF1-58157A9B1AFE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StripeProject.Shared", "Shared\StripeProject.Shared.csproj", "{4E0BB135-D333-4BD3-B970-92508F162370}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StripeProject.Shared", "Shared\StripeProject.Shared.csproj", "{4E0BB135-D333-4BD3-B970-92508F162370}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

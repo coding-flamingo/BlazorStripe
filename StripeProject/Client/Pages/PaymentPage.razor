@@ -1,0 +1,5 @@
+﻿@page "/pay"
+@inherits PaymentPageBase
+
+<h1>Give Me The Money!</h1>
+<StripeComponent _subRequest="BillingInfo" @ref="StripePaymentBase" PaymentProcessed="SendSubToServerAsync"></StripeComponent>
