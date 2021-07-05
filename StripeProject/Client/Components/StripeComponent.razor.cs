@@ -16,6 +16,7 @@ namespace StripeProject.Client.Components
         [Parameter] public EventCallback<bool> PaymentProcessed { get; set; }
         protected bool _firstTime;
         private DotNetObjectReference<StripeComponent> _objRef;
+
         protected override async Task OnInitializedAsync()
         {
             _firstTime = true;

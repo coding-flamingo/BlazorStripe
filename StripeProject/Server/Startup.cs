@@ -6,6 +6,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using System.Linq;
+using StripeProject.Server.Managers;
+using StripeProject.Server.Services;
 
 namespace StripeProject.Server
 {
@@ -25,6 +27,9 @@ namespace StripeProject.Server
 
             services.AddControllersWithViews();
             services.AddRazorPages();
+            services.AddTransient<StripeManager>();
+            services.AddTransient<IAKVService, AKVService>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

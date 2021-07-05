@@ -19,7 +19,8 @@ namespace StripeProject.Shared
         public string BillingEmail { get; set; }
         [JsonPropertyName("paymentMethodId")]
         public string PaymentMethod { get; set; }
-        [JsonPropertyName("priceId")]
-        public string Price { get; set; }
+
+        [JsonPropertyName("priceId")] 
+        public string Price { get; set; } = "price_1Hu1TdBkXnJ98OJrezQwPn5l";
     }
 }
